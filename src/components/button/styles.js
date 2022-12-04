@@ -15,14 +15,21 @@ export const ButtonContainer = styled.button`
         height: 33px;
 
         background: #E41050;
+
+        &:hover{
+            /* opacity: 0.6; */
+            background-color: #008000;
+            cursor: pointer;
+        }
+
         &::after{
-            content: '',
+            content: '';
             position: absolute;
             border: 1px solid #e41050;
-            top: -5px;
-            left: -6px;
-            width: calc(100% + 10px);
-            height: calc(100% + 10px);
+            top: -3px;
+            left: -4px;
+            width: calc(100% + 6px);
+            height: calc(100% + 4px);
             border-radius: 22px;
         }
     `}
