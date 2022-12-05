@@ -1,5 +1,5 @@
 
-import {Link} from "react-router-dom"
+import {useNavigate} from "react-router-dom"
 import { Button } from "../../components/button";
 import { Header } from "../../components/header";
 import { Input } from "../../components/input";
@@ -9,6 +9,11 @@ CriarText, EsqueciText, Row, SubTitleLogin, TitleLogin, Wrapper} from './styles'
 
 
 const Login = () => {
+    const navigate = useNavigate();
+    const handleClickSignIn = () => {
+        navigate('/feed');
+    }
+
     return (<>
         <Header />
         <Container>
@@ -25,7 +30,7 @@ const Login = () => {
                     <form>
                         <Input placeholder="E-mail"/>
                         <Input placeholder="Senha" type="password"/>
-                        <Button title="Entrar" variant="secondary" />
+                        <Button title="Entrar" variant="secondary"  onClick={handleClickSignIn} type="button"/>
                     </form>
                     <Row>
                         <EsqueciText>Esqueci minha senha</EsqueciText>

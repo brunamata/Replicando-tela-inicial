@@ -8,6 +8,7 @@ import{
 
 import {Home} from './pages/home';
 import {Login} from './pages/login';
+import {Feed} from './pages/feed';
 
 //retorna html 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Routes> {/* elemento que renderiza de acordo com o path: */}
         <Route path="/" element={<Home />} /> {/* aparentemente tem q ter a maiuscula */}
         <Route path="/login" element={<Login />} /> {/* componente soh usa um <> */}
+        <Route path="/feed" element={<Feed />} />
       </Routes>
     </Router>
   );
