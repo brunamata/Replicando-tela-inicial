@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+#Replicando tela inicial de um site
+>> Apenas com objetivo de aprendizado, as telas foram criadas acompanhando um professor em um curso online da DIO
+>> A ultima que fiz bugou em alguma coisa, mas as outras estão legaizinhas, confere lá :)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
