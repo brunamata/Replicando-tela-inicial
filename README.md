@@ -1,6 +1,8 @@
-#Replicando tela inicial de um site
->> Apenas com objetivo de aprendizado, as telas foram criadas acompanhando um professor em um curso online da DIO
->> A ultima que fiz bugou em alguma coisa, mas as outras estão legaizinhas, confere lá :)
+# Replicando tela inicial de um site
+Apenas com objetivo de aprendizado, as telas foram criadas acompanhando um professor em um curso online da DIO usando a biblioteca React em Javascript
+A ultima que fiz bugou em alguma coisa, mas as outras estão legaizinhas, confere lá :)
+
+A seguir, algumas informações da biblioteca para você ficar a vontade e experimentar as telas:
 
 ## Getting Started with Create React App
 
