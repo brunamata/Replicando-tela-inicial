@@ -79,6 +79,11 @@ export const CriarText= styled.p`
     line-height: 5px;
 
     color: #90ee90;
+
+    &:hover{
+        opacity: 0.6;
+        cursor:pointer;
+    }
 `
 
 export const JaTemText= styled.p`
