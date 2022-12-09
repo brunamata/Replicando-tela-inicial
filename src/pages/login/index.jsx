@@ -13,6 +13,9 @@ const Login = () => {
     const handleClickSignIn = () => {
         navigate('/feed');
     }
+    const handleClickSignUp = () => {
+        navigate('/cadastro');
+    }
 
     return (<>
         <Header />
@@ -34,7 +37,7 @@ const Login = () => {
                     </form>
                     <Row>
                         <EsqueciText>Esqueci minha senha</EsqueciText>
-                        <CriarText>Criar Conta</CriarText>
+                        <CriarText type="button" onClick={handleClickSignUp}>Criar Conta</CriarText>
                     </Row>
                 </Wrapper>
             </Column>

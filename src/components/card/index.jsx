@@ -17,7 +17,7 @@ const Card =  () => {
         <ImageBackground />
         <Content>
             <UserInfo>
-                <UserPicture src="projeto\src\assets\foto-perfil.png"/>
+                <UserPicture src=".\src\assets\logo-dio.png"/>
                     <div>
                         <h4>Pablo Henrique</h4>
                         <p>Há 8 minutos</p>

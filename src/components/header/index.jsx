@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from '../button';
 import logo from '../../assets/logo-dio.png'
+import {useNavigate} from "react-router-dom"
 import{
     BuscarInputContainer,
     Container,
@@ -13,7 +14,14 @@ import{
 
 }from "./styles";
 
+
+    
+
 export default function Header({autenticado /* boolean */}){
+    const navigate = useNavigate();
+    const handleClickSignUp = () => {
+        navigate('/cadastro');
+    }
     return(
         <Wrapper>
             <Container>
@@ -33,9 +41,9 @@ export default function Header({autenticado /* boolean */}){
                         <UserPicture src="" />
                      ) : (
                     <>
-                        <MenuRight href="a">Home</MenuRight>
+                        <MenuRight href="/">Home</MenuRight>
                         <Button title="Entrar" />
-                        <Button title="Cadastrar" />
+                        <Button title="Cadastrar" onClick={handleClickSignUp} type="button" />
                     </>
                     )}
                 </Row>
